@@ -11,11 +11,11 @@ const openai = new OpenAIApi(configuration);
 function App() {
   const [messages, setMessages] = useState([
     {
-      content: "It's over Anakin, I have the high ground.",
+      content: "Hello, how can I help you?",
       role: "assistant"
     },
     {
-      content: "You underestimate my power!",
+      content: "Hi",
       role: "user"
     }
   ]);
